@@ -21,9 +21,9 @@ Posted by end of June 3rd, 2021
 
 The goal of LSTM netorks is to solve the issue of memory in both Regressive and Classification models. This is done by sequentially adding LSTM nodes that are meant to mimic human neurons. The following image is an example of an LSTM neuron.
 
-<p align="center">
+<pre align="center">
   <img width="800" height="300" src="https://cdn.analyticsvidhya.com/wp-content/uploads/2017/12/10131302/13.png">
-</p>
+</pre>
 <strong>sub_t</strong>: Is moment in time, remember that LSTM's are meant to make decisions based on previous inputs.<br>
 <strong>h_t</strong>: Hidden Layer of LSTM<br>
 <strong>C_t</strong>: Can be seen as the out for a given layer<br>
